@@ -1,6 +1,8 @@
 # VideoCompress
 A Telegram Video Compressor Bot By [@AbirHasan2005](https://t.me/linux_repo). **This bot works for all!** No need to define each user IDs to use bot. Also works in Group.
 
+* This will upload as Document!
+
 ### Special Logger Feature:
 Bot can send his Live Status on Your Telegram Logs Channel! Just put your Channel ID in `LOG_CHANNEL` Var & Add your bot to that channel as Admin with **Post Messages** Right. If you need more help to Deploy Feel Free to ask in [Support Group](https://t.me/linux_repo).
 
