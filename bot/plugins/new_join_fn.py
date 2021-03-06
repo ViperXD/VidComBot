@@ -44,7 +44,7 @@ async def help_message_f(client, message):
             user = await client.get_chat_member(update_channel, message.chat.id)
             if user.status == "kicked":
                await message.reply_text(
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/VKP_BOTS).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
