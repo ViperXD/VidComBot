@@ -93,10 +93,10 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/Discovery_Updates')
+                    InlineKeyboardButton('⭕️CHANNEL⭕️', url='https://t.me/VKPROJECTS')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')
+                    InlineKeyboardButton('⭕️GROUP⭕️', url='https://t.me/VKP_BOTS')
                 ]
             ]
         ),
@@ -114,7 +114,7 @@ async def incoming_compress_message_f(bot, update):
           if user.status == "kicked":
              await bot.send_message(
                  chat_id=update.chat.id,
-                 text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                 text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/VKP_BOTS).",
                  parse_mode="markdown",
                  disable_web_page_preview=True
              )
@@ -136,7 +136,7 @@ async def incoming_compress_message_f(bot, update):
       except Exception:
           await bot.send_message(
               chat_id=update.chat.id,
-              text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+              text="Something went Wrong. Contact my [Support Group](https://t.me/VKP_BOTS).",
               parse_mode="markdown",
               disable_web_page_preview=True
           )
@@ -145,7 +145,7 @@ async def incoming_compress_message_f(bot, update):
     try:
       await bot.send_message(
         chat_id=update.chat.id,
-        text="🤬 Reply to telegram media 🤬",
+        text="Reply to telegram media",
         reply_to_message_id=update.message_id
       )
     except:
@@ -161,7 +161,7 @@ async def incoming_compress_message_f(bot, update):
         try:
           await bot.send_message(
             chat_id=update.chat.id,
-            text="🤬 Value should be 10 to 90",
+            text="Value should be 10 to 90",
             reply_to_message_id=update.message_id
           )
           return
