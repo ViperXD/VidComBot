@@ -64,7 +64,7 @@ async def help_message_f(client, message):
             return
         except Exception:
             await message.reply_text(
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/VKP_BOTS).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -75,10 +75,10 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⭕️Channel⭕️', url='https://t.me/VKPROJECTS')
+                    InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS')
                 ],
                 [
-                    InlineKeyboardButton('⭕️Group⭕️', url='https://t.me/VKP_BOTS')
+                    InlineKeyboardButton('⚙GROUP⚙', url='https://t.me/VKP_BOTS')
                 ],
                 [
                     InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
