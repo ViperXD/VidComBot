@@ -75,7 +75,11 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⭕️CHANNEL⭕️', url='https://t.me/VKPROJECTS')
+                    InlineKeyboardButton('⭕️CHANNEL⭕️', url='https://t.me/VKRPOJECTS')
+                ],
+                [
+                    InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')
+                
                 ],
                 [
                     InlineKeyboardButton('♐️SHARE♐️', url='tg://msg?text=Hai%20Friend+❤️,+Today%20i+just+found+out+an+intresting+and+Powerful+**Video+Compress+Bot**+for+Free🥰.+**Bot+Link**+:+@VideoCompressProBot+🔥'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
