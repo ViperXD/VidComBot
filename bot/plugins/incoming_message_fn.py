@@ -93,7 +93,7 @@ async def incoming_start_message_f(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS')
+                    InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS'),
                     InlineKeyboardButton('⚙GROUP⚙', url='https://t.me/VKP_BOTS')
                 ]
             ]
