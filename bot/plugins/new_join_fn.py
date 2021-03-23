@@ -75,8 +75,12 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('⚙CHANNEL⚙', url='https://t.me/VKPROJECTS'),
-                    InlineKeyboardButton('⚙GROUP⚙', url='https://t.me/VKP_BOTS')
+                    InlineKeyboardButton('Developer👨🏻‍💻', url='https://t.me/VKPROJECTS'),
+                    InlineKeyboardButton('About🤖', callback_data='about'),
+                ],
+                [
+                    InlineKeyboardButton('How To Use Me🤔', callback_data="help"),
+                    InlineKeyboardButton('Channel🔔', url='https://t.me/VKPROJECTS')
                 ]
             ]
         ),
